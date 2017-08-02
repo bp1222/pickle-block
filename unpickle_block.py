@@ -13,7 +13,7 @@ class UnpickleBlock(Block):
         if len(signals) > 1:
             raise RuntimeError("Should only have a single pickled signal")
 
-        if 'pickled_data' not in signals[0]:
+        if not hasattr(signals[0], 'pickled_data'):
             raise RuntimeError(
                 "Pickled signal should have the pickled_data field"
             )
