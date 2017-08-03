@@ -1,14 +1,10 @@
 {
-  "dwalker/PickleBlock": {
-    "Version": "1.0.0",
-    "Description": "Pickle your signals for transport.",
-    "Input": "Signals that need preservation.",
-    "Output": "A signal with the previous signals pickled up.",
-    "Dependencies": [
-    ],
-    "Commands": {
-    },
-    "Properties": {
+    "dwalker/pickle-block": {
+        "version": "0.0.1",
+        "description": "",
+        "inputs": {},
+        "outputs": {},
+        "properties": {},
+        "commands": {}
     }
-  }
 }
