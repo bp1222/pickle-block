@@ -1,7 +1,12 @@
 {
-  "dwalker/PickleBlock": {
+  "nio/PickleBlock": {
     "Language": "python",
-    "Reference": "github.com/dwalker/pickle-block@v1.0.0",
-    "Version": "1.0.0"
+    "Reference": "github.com/nio-blocks/pickle-block@v0.0.1",
+    "Version": "0.0.1"
+  },
+  "nio/UnpickleBlock": {
+    "Language": "python",
+    "Reference": "github.com/nio-blocks/pickle-block@v0.0.1",
+    "Version": "0.0.1"
   }
 }
