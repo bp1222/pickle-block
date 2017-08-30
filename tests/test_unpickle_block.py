@@ -1,9 +1,11 @@
+from base64 import b64encode
+import pickle
+
 from nio.block.terminals import DEFAULT_TERMINAL
 from nio.signal.base import Signal
 from nio.testing.block_test_case import NIOBlockTestCase
+
 from unpickle_block import UnpickleBlock
-from base64 import b64encode
-import pickle
 
 
 class TestExample(NIOBlockTestCase):
