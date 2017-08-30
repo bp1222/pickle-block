@@ -1,11 +1,10 @@
-from nio.block.base import Block
-from nio.properties import VersionProperty
-from nio.util.discovery import discoverable
 from base64 import b64decode
 import pickle
 
+from nio.block.base import Block
+from nio.properties import VersionProperty
 
-@discoverable
+
 class UnpickleBlock(Block):
     version = VersionProperty('1.0.0')
 
