@@ -1,12 +1,12 @@
 {
   "nio/PickleBlock": {
     "language": "Python",
-    "url": "git://github.com/nio-blocks/pickle.git",
+    "url": "git://github.com/nio-blocks/pickle-block.git",
     "version": "1.0.0"
   },
   "nio/UnpickleBlock": {
     "language": "Python",
-    "url": "git://github.com/nio-blocks/pickle.git",
+    "url": "git://github.com/nio-blocks/pickle-block.git",
     "version": "1.0.0"
   }
 }
