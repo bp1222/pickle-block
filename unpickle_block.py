@@ -5,7 +5,7 @@ from nio.block.base import Block
 from nio.properties import VersionProperty
 
 
-class UnpickleBlock(Block):
+class Unpickle(Block):
     version = VersionProperty("1.0.0")
 
     def process_signals(self, signals):

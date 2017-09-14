@@ -5,14 +5,14 @@ from nio.block.terminals import DEFAULT_TERMINAL
 from nio.signal.base import Signal
 from nio.testing.block_test_case import NIOBlockTestCase
 
-from ..unpickle_block import UnpickleBlock
+from ..unpickle_block import Unpickle
 
 
-class TestExample(NIOBlockTestCase):
+class TestUnpickle(NIOBlockTestCase):
 
     def test_process_signals(self):
         """Signals pass through block unmodified."""
-        blk = UnpickleBlock()
+        blk = Unpickle()
         self.configure_block(blk, {})
         blk.start()
         blk.process_signals([Signal({

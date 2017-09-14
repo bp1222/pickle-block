@@ -6,7 +6,7 @@ from nio.properties import VersionProperty
 from nio.signal.base import Signal
 
 
-class PickleBlock(Block):
+class Pickle(Block):
     version = VersionProperty("1.0.0")
 
     def process_signals(self, signals):
