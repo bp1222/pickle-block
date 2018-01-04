@@ -1,7 +1,7 @@
 {
   "nio/Pickle": {
     "version": "1.0.0",
-    "description": "Pickle is a block that will pickle the contents of a nio Signal.  This block will typically be used both before a publisher block, and the Unpickle block after a subscriber block.  This is due to the fact that the communications system of nio does not allow strictly pythonic data types for transmission.  It only allows JSON-able data types.  So sending tuples, bytestrings, and objects is not possible. If your service is to communicate strictly to another nio Binary running in python, this is a good shorthand to ensure you can submit your python data directly to the other side preserving the data types.",
+    "description": "The Pickle block will [pickle](https://docs.python.org/3/library/pickle.html) the contents of a nio Signal.  This block will typically be used before a publisher block, combined with the Unpickle block after a subscriber block.  This is due to the fact that the communications system of nio does not allow strictly pythonic data types for transmission.  It only allows JSON-able data types.  So sending tuples, bytestrings, and objects is not possible. If your service is to communicate strictly to another nio Binary running in python, this is a good shorthand to ensure you can submit your python data directly to the other side while preserving the data types.",
     "categories": [
       "Signal Modifier"
     ],
@@ -20,7 +20,7 @@
   },
   "nio/Unpickle": {
     "version": "1.0.0",
-    "description": "The un-pickle version of the Pickle.",
+    "description": "The un-pickle version of the [Pickle](https://blocks.n.io/Pickle) block.",
     "categories": [
       "Signal Modifier"
     ],
