@@ -7,7 +7,7 @@ from nio.signal.base import Signal
 
 
 class Pickle(Block):
-    version = VersionProperty("1.0.1")
+    version = VersionProperty("1.0.2")
 
     def process_signals(self, signals):
         try:
