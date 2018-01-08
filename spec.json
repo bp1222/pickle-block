@@ -19,7 +19,7 @@
     "commands": {}
   },
   "nio/Unpickle": {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "The un-pickle version of the [Pickle](https://blocks.n.io/Pickle) block.",
     "categories": [
       "Signal Modifier"
